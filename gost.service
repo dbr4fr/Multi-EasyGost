@@ -9,6 +9,7 @@ User=root
 Restart=always
 RestartSec=5
 DynamicUser=true
+StandardOutput=null
 ExecStart=/usr/bin/gost -C /etc/gost/config.json
 
 [Install]
